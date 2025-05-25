@@ -1,43 +1,218 @@
-version: 1
+version: 3
 domain: healthcare
 created_by: Carlos Z. Reyes
 seed_examples:
   - context: |
-      By far the most effective therapy for acute cluster attacks is   
-      the subcutaneous injection of 6 mg of sumatriptan. In the   
-      first randomized placebo-controlled trial with 39 patients,   
-      two cluster attacks were treated in random order with 6   
-      mg  of  sumatriptan  subcutaneously  or  placebo.  The  pri-  
-      mary endpoint was freedom from pain or almost complete   
-      relief from headache within 10 or 15 min [5]. This endpoint   
-      [15 min] was achieved in 74% of the patients treated with   
-      sumatriptan and 26% for placebo. The success rate of 6 mg   
-      of sumatriptan subcutaneously for pain free at 10 min was   
-      36% and for placebo 3% [5]. The second study investigated   
-      6 and 12 mg of sumatriptan subcutaneously compared to   
-      placebo. Headache improvement to mild or no pain at 15   
-      min was 35% for placebo, 75% for 6 mg of sumatriptan, and   
-      80% for 12 mg of sumatriptan [6]. The pooled analysis of   
-      the Cochrane Collaboration reported pain-free results after   
-      15 min for 48% with sumatriptan and 17% with placebo,   
-      resulting in a number needed to treat of 3.3 (95% confidence   
-      interval [CI] 2.4–5.0). The rates for headache relief after 15   
-      min were 32% and 7%, resulting in a number needed to treat   
-      of 2.4 (95% CI 1.9–3.2) [7].  
-        
-      Meanwhile, a 3-mg dose of sumatriptan subcutaneously   
-      is also available in some countries and sufficient for some   
-      patients [8]. Sumatriptan is well tolerated. Rare adverse   
-      events (AEs) include local injection-site reactions, nausea,   
-      drowsiness,  fatigue,  and  paresthesia.  Contraindications,   
-      according to the label, include severe cardiovascular dis-  
-      eases such as coronary artery disease, ischemic stroke and   
-      transient ischemic attack, or multiple vascular risk factors.   
-      Although many patients with cluster headache have vascu-  
+      Cluster headache is extremely distressing owing to the
+      high intensity of pain attacks and significantly affects the
+      quality of life of affected patients [71]. For attack therapy,
+      only oxygen, subcutaneous sumatriptan, and intranasal
+      sumatriptan and zolmitriptan are available and approved.
+      Both oxygen and subcutaneous sumatriptan remain very
+      expensive and are not reimbursed in many healthcare sys-
+      tems. For example, in a real-life study in Denmark, of 399
+      patients with cluster headache, only 30 treated their attacks
+      with subcutaneous sumatriptan. A 100% treatment effec
+      was achieved by 20% and a 50% pain relief by a further
+      10% [72]. There is a considerable need to develop new
+      fast-acting therapies for the treatment of cluster attacks.
+
+      Even more problematic is the prophylactic therapy of
+      cluster headache. Here, there are very few placebo-con-
+      trolled studies. The best studied substances, verapamil
+      and lithium, have significant adverse drug reactions and
+      many patients discontinue therapy within 6–12 months.
+
+      In the Danish cohort study, only 20% of patients reported
+      being responders to prophylaxis with verapamil [72]. For
+      the other investigated substances, there are only data from
+      open studies. Therefore, these substances are not approved
+      for the prophylaxis of cluster headache. Here, we would
+      need evidence for efficacy from randomized placebo-con-
+      trolled trials. However, there are considerable difficulties
+      in designing and conducting these trials; for example, in
+      episodic cluster headache, it is always very difficult to
+      identify whether an improvement in the headache occurs
+      because the cluster period ends spontaneously or whether
+      it is a treatment effect. Moreover, surprisingly, there is a
+      relatively high placebo effect, which makes it very difficul
+      to prove the efficacy of a new therapy. Again, it would be
+      desirable if there were effective and well-tolerated new
+      therapies for the prophylaxis of cluster headache.
+    questions_and_answers:
+      - question: |
+          What are the available and approved drugs for cluster headache?
+        answer: |
+          For attack therapy, only oxygen, subcutaneous sumatriptan, and intranasal sumatriptan and zolmitriptan are available and approved.
+      - question: |
+          What is the best studied substances for cluster headache?
+        answer: |
+          The best studied substances, verapamil and lithium, have significant adverse drug reactions and many patients discontinue therapy within 6–12 months.
+      - question: |
+          What is the percentage of patients that reported being responders to prophylaxis with verapamil?
+        answer: |
+          In the Danish cohort study, only 20% of patients reported
+          being responders to prophylaxis with verapamil.
+      - question: |
+          What is the percentage of patients that treated their attacks with subcutaneous sumatriptan?
+        answer: |
+          In a real-life study in Denmark, of 399
+          patients with cluster headache, only 30 treated their attacks
+          with subcutaneous sumatriptan.
+  - context: |
+      Verapamil is the medication of choice as a preventive treat-
+      ment in cluster headache [18]. The first randomized placebo-
+      controlled trial with 30 patients investigated the efficacy of
+      verapamil compared with placebo in the prophylaxis of epi-
+      sodic cluster headache. Patients received either verapamil
+      120 mg three times daily or a placebo for 2 weeks. Verapamil
+      resulted in a significant reduction in cluster attack frequency
+      and the need for abortive treatment [31]. Two open trials
+      assessed the efficacy of verapamil. Seventy-two patients
+      with episodic or chronic cluster headache were treated with
+
+      verapamil starting with 200 mg [32]. Complete relief from
+      cluster attacks was observed in 49 (94%) of 52 patients with
+      episodic cluster headache, and 10 (55%) of 18 patients with
+      chronic cluster headache. Most patients need 200–480 mg
+      of verapamil. Twelve patients needed 520–960 mg. A sec-
+      ond open study investigated verapamil in 84 patients with
+      cluster headache [33]. Thirty-three (69%) patients improved
+      more than 75% in terms of attack frequency. No differences
+      with respect to efficacy were observed between episodic and
+      chronic cluster headache. A pair-wise meta-analysis of the
+      open-label studies indicated that 87% of patients reached
+      either a complete response or a more than 50% reduction in
+      attack frequency with verapamil [34].
+
+      In clinical practice, treatment with verapamil is started
+      with 40–80 mg three times daily. Some patients require
+      doses up to 960 mg. Verapamil can lead to heart block [35].
+      Therefore, a baseline electrocardiogram is required and
+      should be repeated after dose increments of 160 mg. Treat-
+      ment should last for the expected duration of a bout plus a
+      few weeks after cluster attacks have finished. For discontinu-
+      ation of verapamil, slow tapering is strictly recommended to
+      avoid cardiac complications. Adverse events such as consti-
+      pation and edema can be dose limiting. In rare cases, vera-
+      pamil can lead to severe skin reactions [32, 36].
+    questions_and_answers:
+      - question: |
+          What is the treatment with verapamil?
+        answer: |
+          In clinical practice, treatment with verapamil is started with 40–80 mg three times daily. Some patients require
+          doses up to 960 mg
+      - question: |
+          What is the adverse events of verapamil?
+        answer: |
+          Adverse events such as constipation and edema can be dose limiting. In rare cases, vera-
+          pamil can lead to severe skin reactions.
+      - question: |
+          What is the first randomized placebo-controlled trial with verapamil?
+        answer: |
+          The first randomized placebo-controlled trial with 30 patients investigated the efficacy of
+          verapamil compared with placebo in the prophylaxis of epi-
+          sodic cluster headache. Patients received either verapamil
+          120 mg three times daily or a placebo for 2 weeks. Verapamil
+          resulted in a significant reduction in cluster attack frequency
+          and the need for abortive treatment.
+      - question: |
+          What is the medication of choice as a preventive treat-
+          ment in cluster headache?
+        answer: |
+          Verapamil is the medication of choice as a preventive treat-
+          ment in cluster headache.
+  - context: |
+      indirect comparisons, the efficacy is inferior to that of the
+      subcutaneous application of sumatriptan. Patients with epi-
+      sodic cluster headache respond usually better than patients
+      with chronic cluster headache. Zolmitriptan nasal spray is
+      only available in a 5-mg dose.
+      Sumatriptan  nasal  spray  was  investigated  in  a  dose  of
+      20 mg in a randomized double-blind placebo-controlled
+      trial [10]. The study included patients with episodic and
+      chronic cluster headache. Patients treated one attack with
+      a sumatriptan 20-mg nasal spray and another attack with
+      placebo. Headache intensity was measured on a five-poin
+      scale at time intervals between 5 and 30 min. The primary
+      outcome  was  headache  response  defined  as  a  decrease
+      in  pain  from  very  severe,  severe,  or  moderate  to  mild
+      or none at 30 min. Secondary outcomes were pain-free
+      rates, relief of associated symptoms, and AEs. The study
+      recruited 118 patients who treated 154 cluster attacks.
+      The responder rates at 30 min were 57% for sumatriptan
+      and 26% for placebo (p = 0.002). Pain-free rates at 30
+      min were 47% for sumatriptan and 18% for placebo (p =
+      0.003). Sumatriptan was superior to placebo for most of
+      the secondary outcomes. No serious AEs were recorded.
+      Two patients reported chest tightness. The most frequently
+      reported AE was a bitter taste with 21% with sumatriptan
+      and 1% with placebo.
+      The bitter taste was not associated with any other AEs.
+    questions_and_answers:
+      - question: |
+          What is the difference betwen  Sumatriptan Nasal Spray  and Sumatriptan subcutaneous application?
+        answer: |
+          The efficacy for Nasal Spray of is inferior to that of the
+          subcutaneous application of sumatriptan. Patients with epi-
+          sodic cluster headache respond usually better than patients
+          with chronic cluster headache.
+      - question: |
+          What is the outcomes of Sumatriptan Nasal Spray?
+        answer: |
+          The primary outcome  was  headache  response  defined  as  a  decrease
+          in  pain  from  very  severe,  severe,  or  moderate  to  mild
+          or none at 30 min. Secondary outcomes were pain-free
+          rates, relief of associated symptoms, and AEs.
+      - question: |
+          What is the responder rates at 30 min for Sumatriptan Nasal Spray?
+        answer: |
+          The responder rates at 30 min were 57% for sumatriptan
+          and 26% for placebo (p = 0.002). Pain-free rates at 30
+          min were 47% for sumatriptan and 18% for placebo (p =
+          0.003). Sumatriptan was superior to placebo for most of
+          the secondary outcomes.
+      - question: |
+          What is the most frequently reported AE for Sumatriptan Nasal Spray?
+        answer: |
+          The most frequently reported AE was a bitter taste with 21% with sumatriptan
+          and 1% with placebo. The bitter taste was not associated with any other AEs.
+  - context: |
+      By far the most effective therapy for acute cluster attacks is
+      the subcutaneous injection of 6 mg of sumatriptan. In the
+      first randomized placebo-controlled trial with 39 patients,
+      two cluster attacks were treated in random order with 6
+      mg  of  sumatriptan  subcutaneously  or  placebo.  The  pri-
+      mary endpoint was freedom from pain or almost complete
+      relief from headache within 10 or 15 min [5]. This endpoin
+      [15 min] was achieved in 74% of the patients treated with
+      sumatriptan and 26% for placebo. The success rate of 6 mg
+      of sumatriptan subcutaneously for pain free at 10 min was
+      36% and for placebo 3% [5]. The second study investigated
+      6 and 12 mg of sumatriptan subcutaneously compared to
+      placebo. Headache improvement to mild or no pain at 15
+      min was 35% for placebo, 75% for 6 mg of sumatriptan, and
+      80% for 12 mg of sumatriptan [6]. The pooled analysis of
+      the Cochrane Collaboration reported pain-free results after
+      15 min for 48% with sumatriptan and 17% with placebo,
+      resulting in a number needed to treat of 3.3 (95% confidence
+      interval [CI] 2.4–5.0). The rates for headache relief after 15
+      min were 32% and 7%, resulting in a number needed to trea
+      of 2.4 (95% CI 1.9–3.2) [7].
+
+      Meanwhile, a 3-mg dose of sumatriptan subcutaneously
+      is also available in some countries and sufficient for some
+      patients [8]. Sumatriptan is well tolerated. Rare adverse
+      events (AEs) include local injection-site reactions, nausea,
+      drowsiness,  fatigue,  and  paresthesia.  Contraindications,
+      according to the label, include severe cardiovascular dis-
+      eases such as coronary artery disease, ischemic stroke and
+      transient ischemic attack, or multiple vascular risk factors.
+      Although many patients with cluster headache have vascu-
       lar risk factors [9], there have been no reports of stroke or
-      myocardial infarction in patients with cluster headache treat-  
-      ing their attacks with subcutaneous sumatriptan. It must be   
-      considered that some patients with chronic cluster headache   
+      myocardial infarction in patients with cluster headache treat-
+      ing their attacks with subcutaneous sumatriptan. It must be
+      considered that some patients with chronic cluster headache
       inject sumatriptan three times daily or more for years.
 
     questions_and_answers:
@@ -48,30 +223,38 @@ seed_examples:
       - question: |
           What are the adverse events of sumatriptan?
         answer: |
-          Rare adverse events (AEs) include local injection-site reactions, nausea, drowsiness, fatigue, and paresthesia. Contraindications,   
-          according to the label, include severe cardiovascular dis-  
-          eases such as coronary artery disease, ischemic stroke and   
+          Rare adverse events (AEs) include local injection-site reactions, nausea, drowsiness, fatigue, and paresthesia. Contraindications,
+          according to the label, include severe cardiovascular dis-
+          eases such as coronary artery disease, ischemic stroke and
           transient ischemic attack, or multiple vascular risk factors.
+      - question: |
+          What are the considerations for patients with hearth disease?
+        answer: |
+          There have been no reports of stroke or
+          myocardial infarction in patients with cluster headache treat-
+          ing their attacks with subcutaneous sumatriptan. It must be
+          considered that some patients with chronic cluster headache
+          inject sumatriptan three times daily or more for years.
   - context: |
-      Cluster headache is characterized by strictly unilateral   
-      attacks of severe head and facial pain. Cluster headache is   
-      a primary headache, i.e., the headache is a syndrome in its   
-      own right and not just a symptom of another disease. The   
-      attacks reach their maximum within a short time and may   
-      also have a rapid offset. The pain is extremely severe. The   
-      localization is strictly unilateral with a particular locali-  
-      zation orbital, retro-orbital, and frontotemporal. Cranial   
-      autonomic symptoms ipsilateral to the pain occur during   
-      the attack. These include conjunctival injection and/or   
-      lacrimation, nasal congestion and/or rhinorrhea, eyelid   
-      edema, forehead and facial sweating, forehead and facial   
-      skin redness, ptosis, and or miosis. Attacks are accom-  
-      panied by physical agitation or restlessness. Attacks last   
-      between 15 min and 3 h and can be triggered by the intake   
-      of alcohol if the patient is in the active period. Attack frequency ranges from one attack every 2 days to eight attacks   
-      per day. For episodic cluster headache, bouts frequently   
-      start with one to two attacks per week, may progress to   
-      several/day over 1–2 weeks, and then taper over 1–2 weeks   
+      Cluster headache is characterized by strictly unilateral
+      attacks of severe head and facial pain. Cluster headache is
+      a primary headache, i.e., the headache is a syndrome in its
+      own right and not just a symptom of another disease. The
+      attacks reach their maximum within a short time and may
+      also have a rapid offset. The pain is extremely severe. The
+      localization is strictly unilateral with a particular locali-
+      zation orbital, retro-orbital, and frontotemporal. Cranial
+      autonomic symptoms ipsilateral to the pain occur during
+      the attack. These include conjunctival injection and/or
+      lacrimation, nasal congestion and/or rhinorrhea, eyelid
+      edema, forehead and facial sweating, forehead and facial
+      skin redness, ptosis, and or miosis. Attacks are accom-
+      panied by physical agitation or restlessness. Attacks las
+      between 15 min and 3 h and can be triggered by the intake
+      of alcohol if the patient is in the active period. Attack frequency ranges from one attack every 2 days to eight attacks
+      per day. For episodic cluster headache, bouts frequently
+      start with one to two attacks per week, may progress to
+      several/day over 1–2 weeks, and then taper over 1–2 weeks
       after occurring at the high plateau for up to several or more
     questions_and_answers:
       - question: |
@@ -90,6 +273,6 @@ document_outline: |
   Cluster headache belongs to the group of trigeminal autonomic headaches. This review summarizes drug therapy of cluster attacks and prophylactic treatment.
 document:
   repo: https://github.com/Carlos-ZRM/instructlab-mytaxonomy.git
-  commit: a1b2c3d4e5f6g7h8i9j0k
+  commit: 02ffa872c7470bd36acbf1bb0676a58eb7fe03df
   patterns:
     - health/docs/Drug-Treatment-of-Cluster-Headache.md
