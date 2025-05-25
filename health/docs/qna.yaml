@@ -1,0 +1,95 @@
+version: 1
+domain: healthcare
+created_by: Carlos Z. Reyes
+seed_examples:
+  - context: |
+      By far the most effective therapy for acute cluster attacks is   
+      the subcutaneous injection of 6 mg of sumatriptan. In the   
+      first randomized placebo-controlled trial with 39 patients,   
+      two cluster attacks were treated in random order with 6   
+      mg  of  sumatriptan  subcutaneously  or  placebo.  The  pri-  
+      mary endpoint was freedom from pain or almost complete   
+      relief from headache within 10 or 15 min [5]. This endpoint   
+      [15 min] was achieved in 74% of the patients treated with   
+      sumatriptan and 26% for placebo. The success rate of 6 mg   
+      of sumatriptan subcutaneously for pain free at 10 min was   
+      36% and for placebo 3% [5]. The second study investigated   
+      6 and 12 mg of sumatriptan subcutaneously compared to   
+      placebo. Headache improvement to mild or no pain at 15   
+      min was 35% for placebo, 75% for 6 mg of sumatriptan, and   
+      80% for 12 mg of sumatriptan [6]. The pooled analysis of   
+      the Cochrane Collaboration reported pain-free results after   
+      15 min for 48% with sumatriptan and 17% with placebo,   
+      resulting in a number needed to treat of 3.3 (95% confidence   
+      interval [CI] 2.4–5.0). The rates for headache relief after 15   
+      min were 32% and 7%, resulting in a number needed to treat   
+      of 2.4 (95% CI 1.9–3.2) [7].  
+        
+      Meanwhile, a 3-mg dose of sumatriptan subcutaneously   
+      is also available in some countries and sufficient for some   
+      patients [8]. Sumatriptan is well tolerated. Rare adverse   
+      events (AEs) include local injection-site reactions, nausea,   
+      drowsiness,  fatigue,  and  paresthesia.  Contraindications,   
+      according to the label, include severe cardiovascular dis-  
+      eases such as coronary artery disease, ischemic stroke and   
+      transient ischemic attack, or multiple vascular risk factors.   
+      Although many patients with cluster headache have vascu-  
+      lar risk factors [9], there have been no reports of stroke or
+      myocardial infarction in patients with cluster headache treat-  
+      ing their attacks with subcutaneous sumatriptan. It must be   
+      considered that some patients with chronic cluster headache   
+      inject sumatriptan three times daily or more for years.
+
+    questions_and_answers:
+      - question: |
+          What could be the first medicament for cluster headache?
+        answer: |
+          By far the most effective therapy for acute cluster attacks is the subcutaneous injection of 6 mg of sumatriptan.
+      - question: |
+          What are the adverse events of sumatriptan?
+        answer: |
+          Rare adverse events (AEs) include local injection-site reactions, nausea, drowsiness, fatigue, and paresthesia. Contraindications,   
+          according to the label, include severe cardiovascular dis-  
+          eases such as coronary artery disease, ischemic stroke and   
+          transient ischemic attack, or multiple vascular risk factors.
+  - context: |
+      Cluster headache is characterized by strictly unilateral   
+      attacks of severe head and facial pain. Cluster headache is   
+      a primary headache, i.e., the headache is a syndrome in its   
+      own right and not just a symptom of another disease. The   
+      attacks reach their maximum within a short time and may   
+      also have a rapid offset. The pain is extremely severe. The   
+      localization is strictly unilateral with a particular locali-  
+      zation orbital, retro-orbital, and frontotemporal. Cranial   
+      autonomic symptoms ipsilateral to the pain occur during   
+      the attack. These include conjunctival injection and/or   
+      lacrimation, nasal congestion and/or rhinorrhea, eyelid   
+      edema, forehead and facial sweating, forehead and facial   
+      skin redness, ptosis, and or miosis. Attacks are accom-  
+      panied by physical agitation or restlessness. Attacks last   
+      between 15 min and 3 h and can be triggered by the intake   
+      of alcohol if the patient is in the active period. Attack frequency ranges from one attack every 2 days to eight attacks   
+      per day. For episodic cluster headache, bouts frequently   
+      start with one to two attacks per week, may progress to   
+      several/day over 1–2 weeks, and then taper over 1–2 weeks   
+      after occurring at the high plateau for up to several or more
+    questions_and_answers:
+      - question: |
+          What is the definition of headache?
+        answer: |
+          The headache is a syndrome in its own right and not just a symptom of another disease.
+      - question: |
+          What is the duration of a cluster headache attack?
+        answer: |
+          Attacks last between 15 min and 3 h.
+      - question: |
+          What is the localization of cluster headache?
+        answer: |
+          The localization is strictly unilateral with a particular localization orbital, retro-orbital, and frontotemporal.
+document_outline: |
+  Cluster headache belongs to the group of trigeminal autonomic headaches. This review summarizes drug therapy of cluster attacks and prophylactic treatment.
+document:
+  repo: https://github.com/Carlos-ZRM/instructlab-mytaxonomy.git
+  commit: a1b2c3d4e5f6g7h8i9j0k
+  patterns:
+    - health/docs/Drug-Treatment-of-Cluster-Headache.md
